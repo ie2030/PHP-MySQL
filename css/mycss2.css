@@ -1,0 +1,260 @@
+body{
+  background-color: gray
+;
+  color: black;
+}
+
+
+
+.container {
+  background-image:url(../images/f.png);
+  margin-top:3%;
+  padding:3%;
+  border-radius:25px;
+  border:solid #082b29;
+}
+
+header {
+  padding:1em;
+  background-color:#5f9ea0;
+  border-radius:25px;
+}
+
+.navbar  {
+  margin-top:2em;
+  background-color: #5f9ea0;
+  background-image: none;
+  filter: none;
+  
+}
+
+.navbar .navbar-brand, .navbar ul.nav li a:link, .navbar ul.nav li a:visited, .navbar ul.nav li  a:hover{
+  color : white;
+  font-weight:bold;
+  text-shadow:none;
+}
+
+
+
+.navbar > ul.nav {
+ padding-left:4em; 
+}
+
+.navbar ul.nav li {
+  font-family : Arial, Helvetica, sans-serif;font-size : 1em;
+  padding:0 0em;
+}
+
+
+.navbar ul.nav li.dropdown >ul.dropdown-menu li{
+  margin-top:.2em;
+
+  
+}
+
+.navbar ul.nav li.dropdown >ul.dropdown-menu a:link, .navbar ul.nav li.dropdown >ul.dropdown-menu a:visited{
+  
+  background-image: none;
+  color:green;
+  padding:1%;
+
+}
+
+.navbar ul.nav li.dropdown >ul.dropdown-menu a:hover{
+  color:black;
+padding:1%;
+}
+
+ .navbar .nav li.dropdown.open .dropdown-toggle {
+color:white;
+
+background-color:#5f9ea0;
+}
+
+.navbar .nav li.dropdown .dropdown-toggle .caret{
+  border-top-color:white;
+  border-bottom-color:white;
+
+}
+
+.navbar .nav li.dropdown  a:hover .caret,.navbar .nav li.dropdown a:focus .caret{
+  border-top-color:white;
+  border-bottom-color:white;
+
+}
+
+
+h1, h2{
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #5f9ea0;
+}
+
+h1{
+  font-size: 2em;
+  color:white;
+}
+
+h2{
+  font-size: 1.5em;
+}
+
+p{
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+a {
+  outline:0;
+}
+
+p a:link {
+  text-decoration: underline;
+  color: #CC0000
+;
+}
+
+p 
+
+p a:hover {
+  text-decoration:none;
+  background-color:#256290;
+  color:white;
+}
+
+
+legend {   
+  font-weight: bold;   
+  font-size: medium;   
+  color: #000000;  
+  border-bottom: 3px solid #A30000
+
+
+;
+}
+
+.buttonarea {  
+  margin-left:10%;
+}
+
+.buttonarea input {   
+  background-color: #5f9ea0;
+  color: white;   
+  font-weight: bold;   
+  padding: .5%;  
+}
+
+section {
+ padding-top:0;
+}
+
+ 
+ form label.error, p#fail {
+  font-size: 1em;
+  color:#789 ;
+  font-weight: bold;
+  display: block;
+ }
+ 
+ form input.error, select.error {
+  background-color: #799;
+  border: 1px solid navy;
+ }
+ 
+
+
+.table{
+   
+  border-collapse: collapse; 
+} 
+
+
+.table thead th, .table td {
+  padding: .2em;
+  border: 1px solid #003399;
+}
+
+
+.table thead th {
+  font-size: small;
+  text-align: left;
+  color: white;
+  background: #5f9ea0;
+  padding: 0 .5em;
+}
+
+.table td {
+  font-size: small;
+  background: #e2edff;
+  color:navy
+}
+
+.table.table-striped  .nocol {
+  background-color:white;
+  border:none;
+ }
+
+.right-align {
+  text-align:right;
+}
+
+input[type="text"]:valid, input[type="email"]:valid, input[type="password"]:valid, input[type="url"]:valid{
+    color: green;
+}
+
+
+/* Unmatched */
+input[type="text"]:invalid, input[type="email"]:invalid, input[type="password"]:invalid, input[type="url"]:invalid{
+    color: red;
+    border-color:red;
+}
+
+.table.table-striped  a.copylink:link {
+  text-decoration:underline;
+ }
+ 
+ .table.table-striped  a.copylink:hover {
+   text-decoration:none;
+ }
+ 
+ .startup {
+   margin-top:2em;
+   padding-left:6em;
+   
+ }
+ 
+ a.start {
+   font-size:160%;
+   text-decoration:underline;
+   color: black;
+  
+ 
+
+   
+ }
+
+ul { 
+  
+  list-style-type: none;
+   padding-left:1em;
+}
+
+
+
+ul a {
+      
+      text-decoration: none;
+      text-indent: 20px;
+      line-height: 35px;
+      display: block;
+      height: 35px;
+      width: 200px;
+      color: black;
+      font-weight:bold;
+      
+}
+ 
+
+ 
+a:hover, .selected a {
+    background-position: left bottom;
+    color: #5f9ea0;
+}
